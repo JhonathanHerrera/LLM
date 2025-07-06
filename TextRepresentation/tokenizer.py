@@ -10,7 +10,7 @@ from tokenizers import Tokenizer
 
 nltk.download('punkt')
 
-text = "こんにちは、元気ですか？" * 1000  # Japanese repeated input
+text = "こんにちは、元気ですか？" * 1000  
 
 # -------------------- AutoTokenizer --------------------
 start_hf = time.time()
